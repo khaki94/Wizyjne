@@ -8,3 +8,13 @@ E:\visual\JakiesGlupieZadanieZebymZdal\JakiesGlupieZadanieZebymZdal\WindowsForms
 E:\visual\JakiesGlupieZadanieZebymZdal\JakiesGlupieZadanieZebymZdal\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 E:\visual\JakiesGlupieZadanieZebymZdal\JakiesGlupieZadanieZebymZdal\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 E:\visual\JakiesGlupieZadanieZebymZdal\JakiesGlupieZadanieZebymZdal\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Filip\Documents\AiR-IV rok\SystemyWizyjne\Wizyjne\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Filip\Documents\AiR-IV rok\SystemyWizyjne\Wizyjne\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Filip\Documents\AiR-IV rok\SystemyWizyjne\Wizyjne\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Filip\Documents\AiR-IV rok\SystemyWizyjne\Wizyjne\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\Filip\Documents\AiR-IV rok\SystemyWizyjne\Wizyjne\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Filip\Documents\AiR-IV rok\SystemyWizyjne\Wizyjne\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Filip\Documents\AiR-IV rok\SystemyWizyjne\Wizyjne\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\Filip\Documents\AiR-IV rok\SystemyWizyjne\Wizyjne\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Filip\Documents\AiR-IV rok\SystemyWizyjne\Wizyjne\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Filip\Documents\AiR-IV rok\SystemyWizyjne\Wizyjne\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

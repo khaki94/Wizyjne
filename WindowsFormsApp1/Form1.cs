@@ -213,5 +213,15 @@ namespace WindowsFormsApp1
             tmp.SetPixel(Center.x, Center.y, Color.White);
             return tmp;
         }
+
+        private void picture_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
