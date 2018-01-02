@@ -214,7 +214,6 @@ namespace WindowsFormsApp1
             tmp.SetPixel(Center.x, Center.y, Color.White);
             return tmp;
         }
-
                                    // width , height
         private bool IsFigureOpen(int [,] array, int width, int height)
         {
@@ -226,6 +225,5 @@ namespace WindowsFormsApp1
                     return true;
             return false;
         }
-
     }
 }
