@@ -44,6 +44,7 @@ namespace WindowsFormsApp1
             long area = GetFigureArea(bitArray);
             // wspolrzedne srodka 
             Point center = GetFigureCenter(bitArray);
+            bool open = IsFigureOpen(bitArray, image.Width, image.Height);
             picture.Image = GetNewPicture(image.Width, image.Height, center, bitArray, image);
         }
 
@@ -213,5 +214,18 @@ namespace WindowsFormsApp1
             tmp.SetPixel(Center.x, Center.y, Color.White);
             return tmp;
         }
+
+                                   // width , height
+        private bool IsFigureOpen(int [,] array, int width, int height)
+        {
+            for (int i = 0; i < height; i++)
+                if (array[0, i] == 1 || array[width - 1, i] == 1)
+                    return true;
+            for (int i = 0; i < width; i++)
+                if (array[i, 0] == 1 || array[i, height - 1] == 1)
+                    return true;
+            return false;
+        }
+
     }
 }
