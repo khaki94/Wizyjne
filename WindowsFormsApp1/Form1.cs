@@ -29,8 +29,10 @@ namespace WindowsFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            picture.Load(@"..\..\obiekty_kolor.bmp");
+            string path = @"..\..\obiekty_kolor.bmp";
+            picture.Load(path);
             backup = new Bitmap(picture.Image);
+            textBox1.Text = path;
         }
 
         private void picture_MouseDown(object sender, MouseEventArgs e)
@@ -46,6 +48,26 @@ namespace WindowsFormsApp1
             Point center = GetFigureCenter(bitArray);
             bool open = IsFigureOpen(bitArray, image.Width, image.Height);
             picture.Image = GetNewPicture(image.Width, image.Height, center, bitArray, image);
+            CreateMessage(center, area, open);
+            /*
+             *  Wskazany element znajduję się w pukncie (Center.x, Center.y )
+             *  wskazany element posiada pole równe area
+             *  wskazany element jest elemntem ??
+             * 
+             */
+        }
+
+        void CreateMessage(Point Center, long area, bool open)
+        {
+            string message = " 1) Wskazany element znajduję się w pukncie (" + Center.x + ", " + Center.y +
+                ") \n  2) Wskazany element posiada pole równe " + area + " \n 3) Wskazany element jest elemntem";
+            if (open == true)
+            {
+                message = message + " otwartym";
+            }
+            else
+                message = message + " zakmnietym";
+            richTextBox1.Text = message;
         }
 
         private int[,] CreateFigureArray(Bitmap bitmap, int x, int y)
@@ -224,6 +246,23 @@ namespace WindowsFormsApp1
                 if (array[i, 0] == 1 || array[i, height - 1] == 1)
                     return true;
             return false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string path = textBox1.Text;
+            if(!String.IsNullOrEmpty(path))
+            {
+                try
+                {
+                    picture.Load(path);
+                }
+                catch( Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                
+            }
         }
     }
 }
